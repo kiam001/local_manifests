@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="mizu"
+           fetch="https://github.com/mizuswork"
+
+  <remote  name="azure"
+           fetch="https://gitlab.com/Panchajanya1999/azure-clang"
+           
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="mizu" revision="DerpFest-13"/>
+
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="mizu" revision="13-camfix"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="mizu" revision="13-4.4"/>
+  
+ <!-- Extras -->
+  <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="azure" revision="main"/>
+ 
+
+</manifest>
