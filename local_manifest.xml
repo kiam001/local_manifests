@@ -5,7 +5,7 @@
            fetch="https://github.com/mizuswork" />
 
   <remote  name="azure"
-           fetch="https://gitlab.com/Panchajanya1999/azure-clang" />
+           fetch="https://gitlab.com/Panchajanya1999" />
            
 
  <!-- Device Trees -->
